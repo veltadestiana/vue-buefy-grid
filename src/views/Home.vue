@@ -29,17 +29,17 @@
               </figure>
               <div class="ribbon ribbon-top-right"><span>Bis Zu +{{list.upto}}%</span></div>
             </div>
-          <div class="card-content">
+          <div class="card-content has-text-centered">
             <div class="content">
-              <p class="title is-size-5 has-text-centered" style="margin: 10px 0 10px 0">{{list.name}}</p>
+              <p class="title is-size-5">{{list.name}}</p>
                 <div class="field is-grouped">
-                  <p class="control">
-                    <span class="button is-rounded is-static list-tags" v-for="(list, tags) in listing">{{list.tags}}</span>
+                  <p class="control" style="margin: 0 auto;" v-for="(list, tags) in listing">
+                    <span class="button is-rounded is-static list-tags">{{list.tags}}</span>
                   </p>
                 </div>
             </div>
           </div>
-          <a class="button is-info is-fullwidth" style="margin-top: 0; border-radius: 0; letter-spacing: 1px"><strong>See Details →</strong></a>
+          <a class="button is-info is-fullwidth button-detail"><strong>See Details →</strong></a>
         </div>
         </div>
       </div>
@@ -64,7 +64,9 @@ export default {
         filteredListing: function()
         {
         	 var self = this;
-           return this.listing.filter(function(list){return list.name.toLowerCase().indexOf(self.search.toLowerCase())>=0;});
+           return this.listing.filter(function(list) {
+             return list.name.toLowerCase().indexOf(self.search.toLowerCase())>=0;}
+           );
         }
     }
   }
