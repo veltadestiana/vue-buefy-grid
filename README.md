@@ -17,10 +17,8 @@ npm run dev
 
 ### Screenshots
 
- - On Desktop
- ![On Desktop](https://i.imgur.com/pj9dfSIr.png)
- - On Mobile
- ![On Mobile](https://i.imgur.com/STO1yYv.png)
+ - On Desktop and Mobile!
+ [On Desktop and Mobile](https://i.imgur.com/It5lcKs.png)
 
 ### Notes
 - Buefy is used to make the whole crafting session faster, and as for the grid system itself I personally implemented the multiline feature to display certain amount of cards before the line breaks.
