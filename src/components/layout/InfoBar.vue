@@ -1,23 +1,15 @@
 <template>
-  <section class="info-bar">
-    <div class="hero is-dark">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            For your information
-          </h1>
-          <h2 class="subtitle">
-            Be a nice developer!
-          </h2>
-        </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="content">
       </div>
     </div>
-  </section>
+  </footer>
 </template>
 
 <script>
 export default {
-  name: 'info-bar'
+  name: 'footer'
 }
 </script>
 

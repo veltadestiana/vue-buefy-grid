@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="columns has-text-centered">
-          <div class="column">  
+          <div class="column">
             <p>
               by <a href="http://kabut.id/" target="_blank">kabut.id</a>. The source code is licensed
               <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.
@@ -63,4 +63,3 @@ export default {
 <style lang="scss" scoped>
 
 </style>
-

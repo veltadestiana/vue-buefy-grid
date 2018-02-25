@@ -8,14 +8,12 @@
 </template>
 
 <script>
-import { NavBar, MainContent, InfoBar, FooterBar } from 'components/layout/'
+import { MainContent, InfoBar } from 'components/layout/'
 
 export default {
   components: {
-    'nav-bar': NavBar,
     'main-content': MainContent,
-    'info-bar': InfoBar,
-    'footer-bar': FooterBar
+    'info-bar': InfoBar
   }
 }
 </script>
