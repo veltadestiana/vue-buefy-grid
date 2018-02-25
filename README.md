@@ -16,9 +16,7 @@ npm run dev
  - Babel
 
 ### Screenshots
-
- - On Desktop and Mobile!
- [On Desktop and Mobile](https://i.imgur.com/It5lcKs.png)
+ - On Desktop and Mobile ![Desktop and Mobile](https://i.imgur.com/It5lcKs.png)
 
 ### Notes
 - Buefy is used to make the whole crafting session faster, and as for the grid system itself I personally implemented the multiline feature to display certain amount of cards before the line breaks.
