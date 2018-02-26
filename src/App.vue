@@ -13,6 +13,7 @@ export default {
     'info-bar': InfoBar
   }
 }
+
 </script>
 
 <style lang="scss">
@@ -203,6 +204,9 @@ $fa-font-path: '~font-awesome/fonts/';
          font-size: 1.4em;
          color: inherit;
     }
+}
+select ::placeholder {
+  color: black;
 }
 
 </style>

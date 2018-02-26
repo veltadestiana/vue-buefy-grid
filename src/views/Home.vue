@@ -49,6 +49,7 @@
 </template>
 
 <script>
+
 export default {
   data () {
     return {
@@ -61,8 +62,7 @@ export default {
     },
     computed:
     {
-        filteredListing: function()
-        {
+        filteredListing: function() {
         	 var self = this;
            return this.listing.filter(function(list) {
              return list.name.toLowerCase().indexOf(self.search.toLowerCase())>=0;}
